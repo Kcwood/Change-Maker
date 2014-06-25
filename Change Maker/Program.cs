@@ -28,7 +28,8 @@ namespace Change_Maker
         //Creating the function for Change Maker
         static void ChangeMaker(double amount)
         {
-            //Declaring variables for # of coins
+            //Declaring variables for # of 
+            //dollar bills and coins
             double i = amount;
             int hundred = 0;
             int fifty = 0;
@@ -40,34 +41,64 @@ namespace Change_Maker
             int dime = 0;
             int nickel = 0;
             int penny = 0;
+            //Creating the while loop to 
+            //get 100's out of our amount
             while (i > 100)
             {
+                //Takes the total amount and subtracts
+                //the number of 100's out of it
                 i = i - 100;
+                //Adds the number of 100's 
                 hundred++;
             }
+            //Creating the while loop to 
+            //get 50's out of our amount
             while (i > 50)
             {
+                //Takes the total amount and subtracts
+                //the number of 50's out of it
                 i = i - 50;
+                //Adds the number of 50's
                 fifty++;
             }
+            //Creating the while loop to 
+            //get 20's out of our amount
             while (i > 20)
 	        {
+                //Takes the total amount and subtracts
+                //the number of 20's out of it
                 i = i - 20;
+                //Adds the number of 20's 
                 twenty++;
 	        }
+            //Creating the while loop to 
+            //get 10's out of out amount
             while (i > 10)
             {
+                //Takes the total amount and subtracts
+                //the number of 10's out of it
                 i = i - 10;
+                //Adds the number of 10's
                 ten++;
             }
+            //Creating the while loop to 
+            //get 5's out of our amount
             while (i > 5)
             {
+                //Takes the total amount and subtracts
+                //the number of 5's out of it
                 i = i - 5;
+                //Adds the number of 5's 
                 five++;
             }
+            //Creating the while loop to 
+            //get 1's out of our amount
             while (i > 1)
             {
+                //Takes the total amount and subtracts
+                //the number of 1's out of it
                 i = i - 1;
+                //Adds the number of 1's 
                 one++;
             }
             //Creating the while loop for 
